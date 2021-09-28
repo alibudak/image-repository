@@ -6,10 +6,12 @@ This app requires Go 1.15, in order to install dependencies, run `go mod downloa
 
 ## How to Run
 To deploy the backend, run `go run main.go` in the `/backend` directory.
+
 To try out the following features, look at the `demo.py` to see examples of API queries that can be made and edit it as you wish. (The backend must be running before running `demo.py`).
+Note that this `demo.py` script interacts with the `/database` directory, which has the preloaded database (with users and images) to faciliate an easier demo process. 
 
 ## Features
-- user account sig-up/sign-in (with authentication)
+- user account sign-up/sign-in (with authentication)
 - JWT authorization
 - access control
 - upload one or multiple images (with description, location, privacy flag etc.)
